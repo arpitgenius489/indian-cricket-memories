@@ -10,7 +10,7 @@ import java.util.Optional;
 
 @RestController 
 @RequestMapping("/api/v1/movies")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://indian-cricket-memories.onrender.com")
 public class MovieController {
     @Autowired
     private MovieService movieService;
