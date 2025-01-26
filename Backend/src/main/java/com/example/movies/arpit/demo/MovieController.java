@@ -10,7 +10,11 @@ import java.util.Optional;
 
 @RestController 
 @RequestMapping("/api/v1/movies")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = {"http://localhost:3000", "https://frontend-7fi8.onrender.com"})
+public class MyController {
+    // Your controller methods here
+}
+)
 public class MovieController {
     @Autowired
     private MovieService movieService;
