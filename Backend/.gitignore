@@ -3,6 +3,12 @@ HELP.md
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
+
+# Maven build directories
+**/Backend/target/
+../../Backend/target/
+Backend/target/
+target/
 /Backend/target/
 
 ### STS ###
